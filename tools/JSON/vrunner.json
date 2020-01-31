@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/silverbulleters/vanessa-runner/develop/vanessa-runner-schema.json",
     "default": {
-        "--ibconnection": "/FC:/projects/SB/sb-hakaton-2019/build/БСП-1",
+        "--ibconnection": "/FC:/!s/base3",
         // "--ibconnection": "/Smyserver\\mybase",
         "--db-user": "Администратор",
         "--db-pwd": "",
         "--workspace": ".",
-        "--v8version":"8.3.15.1778",
+        "--v8version":"8.3.16",
         "--additional": "/DisplayAllFunctions /Lru  /iTaxi ",
         // "--additional": "/DisplayAllFunctions /Lru  /iTaxi /Debug /DebuggerURL tcp://ws-msk-0105:1560",
         "--ordinaryapp": "-1"
