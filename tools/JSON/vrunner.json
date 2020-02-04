@@ -15,7 +15,7 @@
         "--vanessasettings": "./tools/JSON/vanessaBddConf.json"
     },
     "xunit": {
-        "--xddConfig": "./tools/JSON/vanessaTddConf.json",
+        "--xddConfig": "./tools/JSON/vanessaTddConf.json", //"--testclient": "Администратор:password:5565", - запуск тест клиента под другим портом 
         "testsPath": "./tests",
         "--reportsxunit": "ГенераторОтчетаJUnitXML{build/junit.xml};ГенераторОтчетаAllureXMLВерсия2{build/allure/allure.xml}",
         "--xddExitCodePath": "./build/xddExitCodePath.txt"
